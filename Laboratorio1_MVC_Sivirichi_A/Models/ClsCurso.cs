@@ -7,6 +7,7 @@ namespace Laboratorio1_MVC_Sivirichi_A.Models
 {
     public class ClsCurso
     {
+        //Metodos 
         public int codigo { get; set; }
         public string nombre { get; set; }
     }
