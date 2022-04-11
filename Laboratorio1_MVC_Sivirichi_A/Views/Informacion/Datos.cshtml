@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Datos</title>
+</head>
+<body>
+    <div>
+        <center><b>Datos Personales</b></center>
+        <br /><br />
+        <label>Escuela: </label> @ViewBag.Escuela <br />
+        <label>Curso: </label> @ViewBag.Curso <br />
+        <label>Cantidad: </label> @ViewBag.Cantidad <br /><br />
+
+        <label>Tema: </label> @ViewData["Tema"] <br />
+        <label>Unidad: </label> @ViewData["Unidad"] <br />
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1><center>Operaciones Aritmeticas</center></h1>
+        <br /><br />
+              <form name="frmoperaciones" action="Calcular" method="post">
+                  <label>Ingrese Numero 1: </label>
+                  <input type="text" name="num1" />
+                  <br />
+                  <label>Ingrese Numero 2: </label>
+                  <input type="text" name="num2" />
+                  <br />
+                  <label>Selecciones Operacion: </label>
+                  <select name="operacion">
+                      <option value="S">Suma</option>
+                      <option value="R">Resta</option>
+                      <option value="M">Multiplicacion</option>
+                      <option value="D">Division</option>
+                  </select>
+
+                  <input type="submit" value="Calcular" />
+
+              </form>
+    </div>
+</body>
+</html>

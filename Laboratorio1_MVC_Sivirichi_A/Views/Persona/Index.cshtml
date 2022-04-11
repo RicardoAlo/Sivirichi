@@ -1,0 +1,23 @@
+﻿@model Laboratorio1_MVC_Sivirichi_A.Models.ClsPersona
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <center><b><h1>Datos Personales</h1></b></center>
+        <p></p>
+        <label>Apellidos y Nombres: </label>@Model.apellido, @Model.nombre <br />
+        <label>Sexo: </label>@Model.sexo<br />
+        <label>Peso: </label>@Model.peso <br />
+        <label>Edad: </label>@Model.edad
+    </div>
+</body>
+</html>

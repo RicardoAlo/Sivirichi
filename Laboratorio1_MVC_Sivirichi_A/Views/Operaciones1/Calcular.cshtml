@@ -1,0 +1,27 @@
+﻿@model Laboratorio1_MVC_Sivirichi_A.Models.ClsOperaciones1
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Calcular</title>
+</head>
+<body>
+    <div>
+        <h1><b><center>Operaciones Aritmeticas</center></b></h1>
+        <br /><br />
+        <label>Numero 1: </label> @Model.valor1<br />
+        <label>Numero 2: </label> @Model.valor2<br />
+        <label>Operacion: </label> @Model.operacion<br />
+        <br />
+        <label>Resultado: </label> <b>@Model.resultado</b> <br />
+        <br /><br />
+    </div>
+
+    <a href="Index">Retornar al formulario</a>
+</body>
+</html>
